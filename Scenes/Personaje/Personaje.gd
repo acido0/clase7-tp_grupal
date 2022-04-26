@@ -1,9 +1,10 @@
 extends KinematicBody2D
 
 var velocity = Vector2(0,0)
-
+var gravity = 25
 
 func _physics_process(delta):
+	velocity.y += gravity
 	if Input.is_action_pressed("ui_right"):
 		velocity.x += 40
 	
