@@ -13,19 +13,9 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 9 ), ExtResource( 3 ) ],
+"frames": [ ExtResource( 3 ) ],
 "loop": true,
-"name": "danio",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 2 ), ExtResource( 4 ) ],
-"loop": true,
-"name": "caminar",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 10 ) ],
-"loop": true,
-"name": "salto",
+"name": "quieto",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 8 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ) ],
@@ -33,9 +23,19 @@ animations = [ {
 "name": "salto doble",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 3 ) ],
+"frames": [ ExtResource( 10 ) ],
 "loop": true,
-"name": "quieto",
+"name": "salto",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "caminar",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "danio",
 "speed": 5.0
 } ]
 
